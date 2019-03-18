@@ -1,0 +1,24 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background: 
+
+}
+h2{
+    text-align: center;
+}
+
+input{
+    display:block;
+    margin: 0 auto;
+    width:15%;
+    height: 20px;
+    
+}
+
+.text{
+    border-radius: 10px;
+    color: white;
+    background: rgb(5, 97, 100);
+    border: 1px solid rgb(5, 97, 100);
+}
