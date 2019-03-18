@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+
+   <input id='enterTxt'type="text">
+ <button id='click'>Enter</button>
+ <p></p>
+
+
+  <script type="text/javascript">
+
+   let text = document.getElementById('enterTxt').value;
+
+function palindrome(){
+
+let text = document.getElementById('enterTxt').value;
+
+
+   / *remove special characters, spaces and make lowercase*/
+   var removeChar = text.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+
+   / *reverse removeChar for comparison*/
+   var checkPalindrome = removeChar.split('').reverse().join('');
+
+   / *Check to see if myString is a Palindrome*/
+   if(removeChar === checkPalindrome){
+
+   //   document.write("<div>"+ text + " is a Palindrome <div>");
+     document.getElementsByName("p")[0].innerHTML = "This is palindrome: " + text
+   }else{
+
+   //   document.write("<div>" + text + " is not a Palindrome </div>");
+     document.getElementsByTagName("p")[0].innerHTML = "This is not palindrome: " + text
+   }
+   // console.log("input", text, "special", removeChar, "reverse", checkPalindrome);
+   }
+   // palindrome('"Oh who was it I saw, oh who?"');
+   // palindrome('"Madam"');
+   // palindrome('"Star Wars"');
+   // palindrome('"2,3,4,3,2"');
+   // palindrome('"7,10,7,8,9"');
+
+   // console.log(myString);
+   document.getElementById('click').addEventListener('click', palindrome);
+
+
+
+   </script>
+</body>
+</html>
