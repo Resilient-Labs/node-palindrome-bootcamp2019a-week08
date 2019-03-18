@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+  
+</head>
+<body>
+    <h2>Check if something's a palindrome!</h2>
+    <section>
+        <input id ="word" type="text" name="" value="" placeholder="What do you want to check?" >
+        <input id="submit" type="submit" name="" value="Submit" class="text">
+    </section>
+
+    <p></p>
+    <style>
+    body{
+    width: 80%;
+    margin: 0 auto;
+    background: 
+
+}
+h2{
+    text-align: center;
+}
+
+input{
+    display:block;
+    margin: 0 auto;
+    width:15%;
+    height: 20px;
+    
+}
+
+.text{
+    border-radius: 10px;
+    color: white;
+    background: rgb(5, 97, 100);
+    border: 1px solid rgb(5, 97, 100);
+}
+
+    </style>
+<script>
+    document.getElementById('submit').addEventListener("click", palindrome);
+        function palindrome(){
+            let toCheck = document.getElementById("word").value;
+          for(let i=0;i<toCheck.length;i++){
+            if(toCheck[i]!==toCheck[(toCheck.length - (1+i))]){
+              document.querySelector("p").innerText = "This is not a palindrome"
+              break
+            }else{
+              document.querySelector("p").innerText = "This is a palindrome"
+            }
+          }
+        }
+</script>
+</body>
+</html>
