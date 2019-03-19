@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Palindrome Checker</h1>
+
+    <form class="" action="index.html" method="post">
+      <input type="text" class="input" name="" value="">
+      <button type="button" class="submit"name="button">Check</button>
+    </form>
+
+    <p class="answer"></p>
+    <script type="text/javascript" >
+
+    document.querySelector('.submit').addEventListener('click',palindrome);
+    function palindrome(str) {
+      var word = document.querySelector('.input').value;
+      var palin = word.split('').reverse().join('');
+      if ( word === palin ){
+        //if it is a palindrome
+        document.querySelector('.answer').textContent = "It's a Palindrome";
+      }else{
+        //if its not a palindrom it will write
+        document.querySelector('.answer').textContent = "No its not a Palindrome";
+      };
+    };
+    </script>
+  </body>
+</html>
