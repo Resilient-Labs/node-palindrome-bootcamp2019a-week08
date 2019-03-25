@@ -1,0 +1,12 @@
+{
+  "name": "Palindrome Checker",
+  "version": "1.0.0",
+  "description": "Simple app for checking that a word is a palindrome. Not case-sensitive.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Charles De Farias",
+  "license": "ISC"
+}

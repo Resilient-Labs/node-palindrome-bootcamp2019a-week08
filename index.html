@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Palindrome App</title>
+  </head>
+  <body>
+    <h2>Check if something's a palindrome!</h2>
+    <input id ="word" type="text" name="" value="" placeholder="What do you want to check?">
+    <input id="submit" type="submit" name="" value="Submit">
+    <p></p>
+    <script type="text/javascript">
+    document.getElementById('submit').addEventListener("click", palindrome);
+    function palindrome(){
+        let toCheck = document.getElementById("word").value.toLowerCase();
+      for(let i=0;i<toCheck.length;i++){
+        if(toCheck[i]!==toCheck[(toCheck.length - (1+i))]){
+          document.querySelector("p").innerText = "This is not a palindrome"
+          break
+        }else{
+          document.querySelector("p").innerText = "This is a palindrome"
+        }
+      }
+    }
+    </script>
+  </body>
+</html>
