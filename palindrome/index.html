@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+<h1>Is this a palindrome?</h1>
+      <p>Enter your word below</p>
+
+      <form id="myForm">
+        <input id="wordInput" type="text" />
+        <button>SUBMIT</button>
+      </form>
+
+      <p id="answer"></p>
+
+    </div>
+
+    <script type="text/javascript">
+      var myForm = document.getElementById('myForm');
+var wordInput = document.getElementById('wordInput');
+var answer = document.getElementById('answer');
+
+myForm.addEventListener('submit', function(e){
+  e.preventDefault();
+
+  var userInput = wordInput.value;
+
+  answer.innerHTML = isPalindrome(userInput);
+
+});
+
+function isPalindrome(userInput){
+
+  for ( i = 0; i <= ( userInput.length / 2 ); i++ ) {
+    if ( userInput[i] != userInput[(userInput.length - 1 - i)] ) {
+      return false;
+    }
+  }
+  return true;
+}
+
+    </script>
+  </body>
+</html>
