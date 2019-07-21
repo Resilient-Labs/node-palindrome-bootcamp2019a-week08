@@ -1,0 +1,12 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "This is a game that check if user input is a palindrome",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faisal Alotaibi",
+  "license": "ISC"
+}
