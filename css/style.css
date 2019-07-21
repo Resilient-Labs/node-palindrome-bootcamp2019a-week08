@@ -1,0 +1,70 @@
+body{
+  padding: 0 3%;
+  background-color: #f16f5b;
+  font-family: 'Barriecito', cursive;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section,img{
+  width: 50%;
+  float:left;
+}
+
+img {
+  width:48%;
+  margin-right: 2%;
+}
+
+
+div {
+  clear:both;
+  width:100%;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 70px;
+}
+
+.definition{
+  font-size: 18px;
+  margin: 50px 0 0 10%;
+  width: 80%;
+  font-family: 'Georgia', serif;
+  text-transform: none;
+  font-style: italic;
+}
+
+button, input {
+  background-color:inherit;
+  border: 3px solid #b7f3dd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+input {
+  width:45%;
+}
+
+input::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  width:13%;
+  text-transform: uppercase;
+}
+
+button:focus, input:focus{
+  outline: 3px solid #b7f3dd;
+  border-radius: 0px;
+}
