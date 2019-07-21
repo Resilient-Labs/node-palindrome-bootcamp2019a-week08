@@ -1,0 +1,28 @@
+body{
+  background-image: url(https://static1.squarespace.com/static/546bbc72e4b002edc64bc27d/t/57631d7ed1758e9827812d53/1466113425010/taco+cat+palindrome?format=1000w);
+  font-family: 'Fascinate', cursive;
+  background-repeat: no-repeat;
+  background-color: #d6ead2;
+  background-size: 800px;
+}
+
+h1 {
+  margin-left: 60%;
+  font-size: 31px;
+}
+
+input, button {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  float: right;
+  background-color: #f0983c;
+  margin-right: 1%;
+  margin-top: 33px;
+}
+p {
+  float: right;
+  background-color: #f0983c;
+  margin-right: -25%;
+  margin-top: 119px;
+  font-size: 26px;
+}
