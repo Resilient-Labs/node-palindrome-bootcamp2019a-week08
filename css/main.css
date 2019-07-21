@@ -1,0 +1,15 @@
+html{
+  color: lightgrey;
+  background-image: url("https://previews.123rf.com/images/vadmary/vadmary1207/vadmary120700289/14529805-vintage-background-with-a-pen-and-writing.jpg");
+}
+
+h1,p{
+  font-family:sans-serif;
+  font-size: 1.8rem
+
+}
+h1{
+  font-size: 3rem;
+}
+
+h
