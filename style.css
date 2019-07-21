@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/79/91/5a/79915aa6b753056b710d009c06517806.gif");
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Special Elite', cursive;
+  margin-top:20px;
+}
+
+p {
+  font-size: 2.5em;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-top:175px;
+}
+
+button {
+  width: 17%;
+  height: 47px;
+  border: none;
+  margin-top: -1px;
+
+}
+
+input {
+  font-family: 'Special Elite', cursive;
+  color:white;
+  background:transparent;
+  font-size: 2em;
+  width: 20%;
+  height: 41px;
+  float: left;
+  margin-top: -1px;
+  margin-left: 51%;
+}
+
+img {
+  width: 40%;
+  height: 100px;
+  float: left;
+}
