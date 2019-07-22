@@ -1,22 +1,12 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# 📋 Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+![Preview](/img/preview.png)
 
-### How to submit your code for review:
+### Goal:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Create a simple node app that lets a user enter a string. The app will then let the user know if the string is a palindrome or not. The javascript app logic is rendered on the server side (server.js). The DOM manipulation is done in the (main.js). The node Express framework is not used for this project.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### References:
+
+- https://docs.npmjs.com/creating-a-package-json-file
+- https://www.npmjs.com/package/figlet

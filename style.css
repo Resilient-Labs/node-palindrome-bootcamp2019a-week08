@@ -1,0 +1,23 @@
+*{
+  text-align: center;
+}
+h1{
+  font-size: 45px;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+h2{
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.second, span{
+  color: lightgray;
+}
+input, button{
+  font-size: 25px;
+  width: 21%;
+}
+button{
+  font-weight: bold;
+}
