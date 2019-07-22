@@ -1,0 +1,99 @@
+body{
+  background-color:orange;
+}
+
+
+input {
+    width: 90%;
+    padding: 1%;
+    font-size: 100px;
+    margin-left: 40px;
+    border: 5px solid orange;
+    border-radius: 50px;
+    text-align: center;
+}
+
+button {
+    font-size: 50px;
+    border-radius: 50px;
+    width: 75%;
+    padding: 1%;
+    margin-left: 146px;
+    background-color: orange;
+    color: #fff9a4;
+    margin-top: 30px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #fff9a5;
+    font-size: 56px;
+    margin-bottom: 15px;
+}
+
+body{
+
+  font-family: sans-serif;
+}
+
+span {
+    text-align: center;
+    font-size: 30px;
+    margin: -35px;
+     float: left;
+    position: fixed;
+    left: 37%;
+    font-weight: 700;
+    color: #fff9a4;
+    margin-top: 30px;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #0200a9;
+    bottom: 24px;
+    border-radius: .4em;
+    padding: 3%;
+    margin-top: 54px;
+    width: 28%;
+}
+
+.speech-bubble:after {
+	/* content: ''; */
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 100%;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #0200a9;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+  margin-top: 40px;
+
+}
+
+.white{
+
+  background-color: white;
+  border-radius: 30px;
+  height: 500px;
+  padding: 5%;
+  width: 80%;
+  margin-left:5%;
+
+
+}
+
+h3 {
+    text-align: left;
+    color: #0200a9;
+    font-size: 24px;
+    margin-bottom: 42px;
+    width: 69%;
+    margin-top: 0px;
+    margin-left: 151px;
+}
