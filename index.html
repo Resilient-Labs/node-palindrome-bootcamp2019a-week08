@@ -1,0 +1,30 @@
+<!-- render it on server side -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+
+  <!-- Morning Challenge - simple node app that lets a user enter a string. The app will then let the user know if the string is a palindrome or not - stand up at 11am -->
+
+  <body>
+    <h1>Is your word a palidrome?</h1>
+    <form class="" action="index.html" method="post">
+      <label for="">Please enter your word: </label>
+      <input type="text" name="submit" value="" placeholder="Sample Word">
+      <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <p>Entered: <span class="entered"></span></p>
+    <p>Reversed: <span class="response"></span></p>
+    <p>Response: <span class="yesno"></span></p>
+
+
+    <script type="text/javascript" src="js/client.js"></script>
+    <script type="text/javascript" src="server.js"></script>
+  </body>
+</html>

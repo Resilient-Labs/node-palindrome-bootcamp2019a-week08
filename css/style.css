@@ -1,0 +1,44 @@
+html{
+  background-image: url(../images/background.jpg);
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+  font-size: 60px;
+  color:white;
+  margin-left: 2%;
+}
+
+form{
+  font-size: 30px;
+  color:white;
+  margin-left: 2%;
+}
+
+p{
+  font-size: 40px;
+  color:white;
+  margin-left: 2%;
+}
+
+button{
+  font-size: 25px;
+  color:black;
+  background-color: silver;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+label{
+  font-size: 30px;
+}
+
+input{
+  font-size: 25px;
+  width: 21%;
+}
+
+span{
+  color: gold;
+  font-size: 50px;
+}
