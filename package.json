@@ -1,0 +1,21 @@
+{
+  "name": "serversiderendering",
+  "version": "1.0.0",
+  "description": "palindrome detector",
+  "main": "server.js",
+  "dependencies": {
+    "figlet": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "palindrome"
+  ],
+  "author": "Johann Folta",
+  "license": "MIT"
+}
