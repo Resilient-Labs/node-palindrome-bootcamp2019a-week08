@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://storage.needpix.com/rsynced_images/background-1986025_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 7.5%;
+    color: seashell;
+    font-family: fantasy;
+}
+
+input#userInput {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+        border-radius: 22px;
+}
+
+form {
+  text-align: center;
+  display: grid;
+  padding: 6px;
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+    color: seashell;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 20px;
+}
