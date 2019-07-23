@@ -1,7 +1,7 @@
 # Node and Server Side Development - Palindrome
 The project is webpage that that allows a user to determine if a string that is entered is a palindrome. A palindrome is a word that is spelled the same whether written backwards or forwards. Examples of palidromes are *kayak,* and  *racecar.* The functions to determine whether the input is a palindrome are completed on the server side. A server was built for this purpose.
 
-<img src="/FunWithFIdo_screenschoot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
+<img src="/palindromechecker.png?raw=true" alt="screenshot of palindrome checkere" height="200px">
 
 ## How It's Made:
 
