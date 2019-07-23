@@ -1,22 +1,19 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Node and Server Side Development - Palindrome
+The project is webpage that that allows a user to determine if a string that is entered is a palindrome. A palindrome is a word that is spelled the same whether written backwards or forwards. Examples of palidromes are *kayak,* and  *racecar.* The functions to determine whether the input is a palindrome are completed on the server side. A server was built for this purpose.
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+<img src="/palindromechecker.png?raw=true" alt="screenshot of palindrome checkere" height="200px">
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript, Node
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The project was create and designed with HTML and CSS. Javascript is used in both the client side and server side to determine if the input from the user is a palindrome. Client side Javascript include the event listener and a fetch to the API used to connect to the server that was created for the project as well as the function to report the result to the DOM.  The server side of the project provided connections to all relevant files and completed the functions to determine if the input he client side javascript and reported that result back to the client side javascript. 
+
+## Optimizations (Optional):
+
+Optional.
+
+
+## Lessons Learned:
+
+The components and process of building a server and running code on the server side. I learned the distinction between code that is meant for the client and code that is meant for the server.

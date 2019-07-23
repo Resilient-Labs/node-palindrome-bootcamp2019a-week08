@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1556228454-1690896f350c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+  background-size: 100% 250%;
+  background-position: ;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 30pt;
+  float: right;
+  margin-right: 12%;
+  clear: both;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h3 {
+  float: right;
+  margin-right: 25%;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  float: right;
+  clear: both;
+  margin-right: 10%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 30%;
+}
+
+h4 {
+  float: right;
+  clear: both;
+  margin-right: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 30%;
+
+}
+
+span {
+  display: block;
+  background-color: white;
+  float: right;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 8%;
+  margin-right: 23%;
+  margin-top: -3%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 10pt;
+  color: purple;
+  font-weight: bolder;
+  font-size: .75rem;
+  position: static;
+}
+
+
+form {
+  float: right;
+  clear: both;
+  margin-top: 40px;
+  margin-right: 20%;
+}
