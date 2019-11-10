@@ -1,0 +1,15 @@
+body{
+    background-color: gold;
+    text-align: center;
+}
+button{
+  height: 50px;
+  width: 200px;
+}
+input{
+  height: 44px;
+  font-size: 18px;
+}
+h1{
+  font-size: 100px;
+}
