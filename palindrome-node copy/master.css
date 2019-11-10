@@ -1,0 +1,16 @@
+h1{
+font-size: 45px;
+}
+section{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+button:hover{
+  background-color: #ff9900;
+}
+
+body{
+  background-color: #ababab;
+}
