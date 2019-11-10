@@ -3,7 +3,7 @@
 ### I created a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.  The user simply inputs any name to see if its a palindrome.
 
 
-![alt text]()
+![alt text](palindromeAppScreenshot.png)
 
 
 
