@@ -4,7 +4,7 @@ This project is a simple palidrome web application. The user can input any word 
 
 **Link to project:** https://infallible-torvalds-6bccca.netlify.com/
 
-![alt tag](https://github.com/TimTran-Dev/node-palindrome-bootcamp/tree/answer)
+![alt tag](https://github.com/TimTran-Dev/node-palindrome-bootcamp/blob/answer/palindrome.png)
 
 ## How It's Made:
 
