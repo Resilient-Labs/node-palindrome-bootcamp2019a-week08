@@ -1,6 +1,5 @@
 body{
   background-color: rgb(49, 62, 87);
-  background-image: url();
   background-repeat: no-repeat;
   text-align: center;
   font-size: 10px;
@@ -25,7 +24,7 @@ form{
 }
 input{
   font-size: 2rem;
-  color: white;
+  color: lightgray;
   border-width: medium;
   border: solid pink;
   border-radius: 4px;
@@ -35,7 +34,7 @@ input{
   margin-top: 17%;
 }
 ::placeholder{
-  color:white;
+  color:lightgray;
 }
 
 button{
