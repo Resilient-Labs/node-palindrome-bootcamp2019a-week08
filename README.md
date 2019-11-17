@@ -2,7 +2,7 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-This web app uses JavaScript on the front end and Node.js on the back end to checks whether or not submitted words or phrases are palindromes, while paying homage to Louis Sachar's novel Holes and its film adaptation.
+This web app uses JavaScript on the front end and Node.js on the back end to check whether or not submitted words or phrases are palindromes, while paying homage to Louis Sachar's novel Holes and its film adaptation.
 
 ![alt tag](https://github.com/anthonybetances/node-palindrome-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%206.52.47%20AM.png)
 
