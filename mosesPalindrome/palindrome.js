@@ -4,7 +4,7 @@ let check = document.querySelector("button")
 function palindrome() {
   let str = document.getElementById('str').value
   str = str.toLowerCase().replace(/[^a-z]+/g,"");
-  console.log('derp', str)
+  //console.log('derp', str)
   if (str === str.split("").reverse().join("")){
     document.getElementById("result").innerHTML = "palindrome";
 }else{
