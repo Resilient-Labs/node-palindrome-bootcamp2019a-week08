@@ -1,0 +1,10 @@
+client side version:
+ 1. to have node app to run, download the packages from node js website
+ 2. download another package on atom ""
+ 3. run npm install to get figlet to show up
+ 4. node server .js
+ 5. client side means on the user side, not anything on the server, it's gonna
+    in their browser
+
+
+hints on server side:

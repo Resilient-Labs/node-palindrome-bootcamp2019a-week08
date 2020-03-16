@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+}
+body {
+  text-align: center;
+  align-content: center;
+  background-color: cyan;
+}
+.header h1 {
+  font-size: 65px;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom; 2%;
+}
+.header h2 {
+  font-size: 30px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.header p {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+section {
+  width: 100%;
+}
+input {
+  width: 80%;
+  font-size: 25px;
+  margin: 2% auto;
+  font-family: 'Archivo Black', sans-serif;
+  color: green;
+}
+button {
+  font-size: 25px;
+  font-family: 'Archivo Black', sans-serif;
+  background-color: green;
+  color: white;
+}
+#result {
+  font-size: 40px;
+  font-family: 'Lalezar', cursive;
+  background: green;
+  width: auto;
+}
