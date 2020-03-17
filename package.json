@@ -1,0 +1,16 @@
+{
+  "name": "morning-challenge",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "figlet": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "darlene",
+  "license": "ISC",
+  "description": ""
+}
