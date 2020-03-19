@@ -10,3 +10,10 @@
 
 # Lesson Learned: 
 #### To connect the main.js with Node, I used the fetch method and created a simple API to retrieve data from the server. 
+
+## Installation
+
+1. Clone repo
+2. cd into project folder
+3. Run 'node server.js'
+4. Navigate to 'localhost:8000'
