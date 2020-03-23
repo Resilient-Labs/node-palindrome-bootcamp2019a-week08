@@ -1,0 +1,31 @@
+body{
+  background-color:  #d5f5ee;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  margin-top: 15rem;
+  font-weight: bold;
+  font-family: 'arial';
+  font-size: 2.7rem;
+}
+
+form{
+  text-align: center;
+}
+
+input{
+  font-size: 2rem;
+  border: none;
+  border-radius: 3px;
+}
+
+button{
+  font-size: 1.9rem;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
