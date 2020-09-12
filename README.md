@@ -15,7 +15,8 @@ https://thirsty-kepler-c98985.netlify.app/
   </ul>
 
 Lesson Learned:
-To connect my script file and rendering images to node server 
+I learned to verify data from my  server side and using a fetch within my script file to access those conditions in the server side. 
+
 <h3> Installation </h3>
      <ol> 
   <li> Clone repo </li>
@@ -23,9 +24,7 @@ To connect my script file and rendering images to node server
   <li> Run nodemon server.js </li>
   <li> Navigate to your browser to 'Localhost:8000' </li>
     <li>Once complete make sure to end the server by selecting control c to clear</li>
-
-
-    </ol>
+  </ol>
 
 
 
