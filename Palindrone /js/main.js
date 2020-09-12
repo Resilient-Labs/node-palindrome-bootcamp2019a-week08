@@ -1,3 +1,7 @@
+// worked with house class
+// Ibrahim, Carolin, Shawn, Rahma
+
+
 let inputPalidrome = document.getElementById('inputPalidrome')
 let buttonSubmit = document.getElementById('buttonSubmit')
 
