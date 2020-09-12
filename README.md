@@ -1,11 +1,5 @@
 
 <h1> Palidrome Checker </h1>
-
-      ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
-      ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/Unsplah-Api/master/unsplash.png)
-
-
-
 <p> Project Scope: Create an application that utilize node as a to provide verification to the client side. </p>
 
 <h2> View Here </h2>
@@ -23,11 +17,11 @@ I learned to verify data from my  server side and using a fetch within my script
 
 <h3> Installation </h3>
      <ol> 
-  <li> Clone repo </li>
-    <li> cd into project folder  </li>
-  <li> Run nodemon server.js </li>
-  <li> Navigate to your browser to 'Localhost:8000' </li>
-    <li>Once complete make sure to end the server by selecting control c to clear</li>
+       <li> Clone repo </li>
+       <li> cd into project folder  </li>
+       <li> Run nodemon server.js </li>
+       <li> Navigate to your browser to 'Localhost:8000' </li>
+       <li>Once complete make sure to end the server by selecting control c to clear</li>
   </ol>
 
 
