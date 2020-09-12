@@ -3,7 +3,7 @@
 #### Project Scope: The user enters in a word or set of words to check if it is a palindrome. It uses the fs and http modules of Node.js and validates if the inputed string is a palindrome server side.
 
 - Try it Here: https://palindrome-checker-pr-123.herokuapp.com
-![Plaindrome Checker Screenshot](/plainScreen.png)
+![Plaindrome Checker Screenshot](/palinScreen.png)
 
 # How it was made:
 #### HTML5, CSS3, Javascript, API, JSON, Node.js
