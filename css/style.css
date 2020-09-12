@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background: url("https://d3qdvvkm3r2z1i.cloudfront.net/media/catalog/product/cache/1/image/1800x/6b9ffbf72458f4fd2d3cb995d92e8889/t/a/tacocat_newthumb.png") center no-repeat;
+  background-color: rgb(40, 28, 17);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  font-family: 'Antic Slab', serif;
+}
+h1{
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #dc2f02;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+input{
+  height:2rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 3px solid white;
+  font-family: 'Antic Slab', serif;
+}
+button{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  outline: none;
+  border: 5px solid white;
+  background-color: #2a9d8f;
+  font-family: 'Antic Slab', serif;
+}
+button:hover{
+  background-color: gold;
+}
+h2{
+    font-size: 2rem;
+}
