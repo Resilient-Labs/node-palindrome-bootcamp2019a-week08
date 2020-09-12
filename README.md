@@ -1,8 +1,9 @@
 
 <h1> Palidrome Checker </h1>
+      ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
+
 
 <p> Project Scope: Create an application that utilize node as a to provide verification to the client side. </p>
-      ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
 
 <h2> View Here </h2>
 https://thirsty-kepler-c98985.netlify.app/
