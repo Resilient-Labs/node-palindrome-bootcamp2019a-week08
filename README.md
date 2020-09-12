@@ -1,5 +1,3 @@
-![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
-
 
 <h1> Node-Palidrome bootcamp </h1>
 
@@ -10,4 +8,8 @@
   <li> JAVASCRIPT</li>
   <li>NODEJS</li>
   </ol>
+
+
+![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
+
 
