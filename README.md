@@ -1,5 +1,6 @@
 
 <h1> Palidrome Checker </h1>
+
       ![Alt Text](https://raw.githubusercontent.com/JohnbelMDev/node-palindrome-bootcamp/answer/Palindrone%20/image.png)
 
 
