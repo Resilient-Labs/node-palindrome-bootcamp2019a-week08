@@ -26,6 +26,7 @@ const figlet = require('figlet')
       } else if (pal !== palBackwards){
         result = false;
       }
+      // main logic here and when fetched used to compare to put data in DOM
       res.writeHead(200, {'Content-Type': 'text/html'});
       res.end(JSON.stringify(result));
     }

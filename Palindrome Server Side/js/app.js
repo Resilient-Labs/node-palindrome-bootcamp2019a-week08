@@ -1,3 +1,4 @@
+//House Moses: Kim, Carlosalberto, Farrah and Gabriel
 let answer = document.getElementById('answer');
 let button = document.querySelector('.btn')
 let form = document.querySelector('.form')
@@ -15,7 +16,7 @@ let input = document.querySelector('.palCheck').value
        }
    })
 }
-
+// if statement with innerHTML allows to display in DOM
 button.addEventListener("click", findPal);
 
 
