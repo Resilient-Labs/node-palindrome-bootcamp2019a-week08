@@ -1,0 +1,44 @@
+body{
+  background-image:url("https://insights.osu.edu/sites/default/files/media/image/2017/08/abc_headerv2.gif");
+}
+
+h1{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 50px;
+  color: white;
+  font-family: monospace;
+}
+
+section.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 85%);
+  width: 65%;
+}
+
+button {
+  padding-top: 8px;
+  padding-bottom: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  font-family: monospace;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 2%;
+}
+p{
+  font-family: monospace;
+  color: white;
+  font-size: 35px;
+}
