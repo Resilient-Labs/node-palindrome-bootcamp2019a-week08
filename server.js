@@ -38,7 +38,7 @@ const server = http.createServer(function (req, res) {
             res.writeHead(200, {
                 'Content-Type': 'application/json'
             });
-            let checkWord = params['word'];
+            let checkWord = params['word'].toLowerCase();
             let reverse = checkWord.split('').reverse().join('');
             if (checkWord === reverse) {
                 var answer = "yes";
