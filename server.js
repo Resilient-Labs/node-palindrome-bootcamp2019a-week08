@@ -17,8 +17,8 @@ const server = http.createServer(function (req, res) {
             res.write(data);
             res.end();
         });
-    } else if (page == 'css/style.css') {
-        fs.readFile('/css/style.css', function (err, data) {
+    } else if (page == '/css/style.css') {
+        fs.readFile('css/style.css', function (err, data) {
           res.writeHead(200, {
               'Content-Type': 'text/css'
           });
