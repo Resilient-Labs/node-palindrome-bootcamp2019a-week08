@@ -1,22 +1,15 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+#### Project Scope: The user enters in a word or set of words to check if it is a palindrome. It uses the fs and http modules of Node.js and validates if the inputed string is a palindrome server side.
 
-### How to submit your code for review:
+- Try it Here: https://palindrome-checker-dev.herokuapp.com/
+![Plaindrome Checker Screenshot](/palinScreen.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# How it was made:
+#### HTML5, CSS3, Javascript, API, JSON, Node.js
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Optimizations:
+#### Press the button and it will check if it is a palindrome!
+
+# Lesson Learned:
+#### You can simplify the JSON responses sent by creating a function that will filter and send only the required pieces of data, instead of sending the entire response or object. This way, you can easily display the information in the browser without needed to sort through all of the data sent back from the server side.
