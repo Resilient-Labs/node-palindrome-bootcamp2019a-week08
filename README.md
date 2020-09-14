@@ -1,22 +1,25 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# ↔️ Week 08 Project: Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+Live Code: 
 
-### How to submit your code for review:
+# How It's Made:
+### Tech used: 
+HTML, CSS, JS, and Node JS. Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Palindrome Checker Final](palindrome.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+# Lessons Learned:
+The logic of this one was more straight forward and it allowed me to see more of the connection between client side and server side. 
+
+# Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+Wu-Tang Generator: https://github.com/Kim-Flores/wu-tang-generator-bootcamp/tree/answer
+
+Matching Game: https://github.com/Kim-Flores/matching-card-bootcamp/tree/answer
+
+Coin Flip: https://github.com/Kim-Flores/node-coin-flip-bootcamp/tree/answer
