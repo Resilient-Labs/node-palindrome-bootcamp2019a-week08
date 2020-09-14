@@ -1,0 +1,30 @@
+*{
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input, button{
+    font-size: 1.2rem;
+    word-spacing: 1.2rem;
+    padding: .4rem;
+    margin: .1rem;
+    width: 12rem;
+    outline: none;
+    border: 1px solid black;
+    transition: all .2s;
+    box-shadow: 2px 2px 5px grey;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr .4fr .4fr;
+}
+input:hover, button:hover{
+    transform: scale(1.05);
+}
