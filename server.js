@@ -17,19 +17,19 @@ const figlet = require('figlet')
     });
   }
   else if (page == '/palindrome') {
-    if ('pal' in params){
-      const pal = params ['pal'];
-      const palBackwards = pal.split('').reverse().join('');
-      let result;
-       if(pal === palBackwards){
-         result = true;
-      } else if (pal !== palBackwards){
-        result = false;
-      }
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.end(JSON.stringify(result));
+  if ('pal' in params){
+    const pal = params ['pal'];
+    const palBackwards = pal.split('').reverse().join('');
+    let result;
+     if(pal.length > 1 && pal === palBackwards){
+       result = true;
+    } else if (pal.length <= 1 || pal !== palBackwards){
+      result = false;
     }
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end(JSON.stringify(result));
   }
+}
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
