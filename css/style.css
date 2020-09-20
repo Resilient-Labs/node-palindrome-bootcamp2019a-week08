@@ -1,71 +1,74 @@
+/* Js and server worked on with team Cass */
+
 h2 {
   margin: .25rem;
 }
 
 section.container {
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 button {
-  padding: 1rem;
-  background-color: skyblue;
+  margin-top: 20px;
+  color: white;
+  background-color: inherit;
 }
 
-#coin {
+/*
+CSS edited from template by Usama Tahir for
+https://medium.com/@AmJustSam
+*/
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CSS which you need for blurred box */
+body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(http://bit.ly/2gPLxZ4);
+ width: 100%;
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased;
+}
+
+.blurred-box{
   position: relative;
-  width: 15rem;
-  height: 15rem;
-  margin: 2rem 0rem;
-  transform-style: preserve-3d;
-
+  width: 250px;
+  height: 350px;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
 }
 
-#coin section {
-  width: 100%;
-  height: 100%;
-  border: 2px solid black;
-  border-radius: 50%;
-  backface-visibility: hidden;
-  background-size: contain;
-  position: absolute;
+
+.user-name, p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
 }
 
-.heads {
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/51xs7F%2BtP5L._AC_.jpg");
-}
-
-.animate-heads {
-  animation: flipHeads 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes flipHeads {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(1800deg);
-  }
-}
-
-.tails {
-    background-image: url("https://bjc.edc.org/June2017/bjc-r/img/5-algorithms/img_flipping-a-coin/Tails.png");
-  transform: rotateY(-180deg);
-}
-
-.animate-tails {
-  animation: flipTails 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes flipTails {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(1620deg);
-  }
+input.user-password{
+  width: 120px;
+  height: 18px;
+  opacity: 0.4;
+  border-radius: 2px;
+  padding: 5px 15px;
+  border: 0;
 }
