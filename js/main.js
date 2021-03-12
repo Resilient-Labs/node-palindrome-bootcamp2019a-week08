@@ -10,8 +10,8 @@ function clicky(element){
     .then(response => response.json())
     .then((data) => {
       console.log(data)
-
-      document.querySelector('#prompt').innerText = data.isPalindrome
+      let response = data.isPalindrome ? "It's a palindrome!" : "It's not a palindrome"
+      document.querySelector('#prompt').innerText = response
     })
 }
 // document.querySelector('#heads').addEventListener('click', pick)
