@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    font-size: 1.4rem;
+}
+
+.background {
+    background-image: url("bg.png");
+    background-size: 100%;
+    background-color: #e3eeff;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Lily Script One', cursive;
+    color:#b1d6f2;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pal-container{
+    width: 40%;
+    margin: 10%;
+}
+
+.submit {
+	background-color:#b1d6f2;
+	border-radius:28px;
+	border:1px solid #7eb8ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#5e5e5e;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #92caf5;
+}
+
+.submit:hover {
+	background-color:#9ecdf1;
+}
+
+.submit:active {
+	position: relative;
+	top: 2px;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+
+.no-outline {
+    outline: none;
+}
