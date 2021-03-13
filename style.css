@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5;
+}
+
+body{
+  background-color: pink;
+}
+
+.parent {
+  border: 3px solid white;
+  width: 50%;
+  text-align: center;
+  margin: 200px auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Redressed', cursive;
+  color: white;
+}
+
+p {
+  font-size: 3rem;
+  color: white;
+}
