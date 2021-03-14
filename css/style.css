@@ -1,0 +1,101 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Ranchers', Arial, sans-serif;
+     background-color: #2ce0ce;
+}
+html{
+  font-size: 10px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  font-size: 8rem;
+  text-align: center;
+  color:white;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+input{
+  margin: 0 2rem;
+  height: 54px;
+  font-size: 3rem;
+  border-radius: 22px;
+  outline: none;
+  font-family: 'Ranchers',sans-serif;
+}
+button{
+  width: 10%;
+  outline: none;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:active{
+  transform: translateY(10px);
+}
+h2{
+  text-align: center;
+  font-size: 8rem;
+}
+p{
+  text-align: center;
+  font-family: 'Ranchers',sans-serif;
+  font-size: 4rem;
+  color: black;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
