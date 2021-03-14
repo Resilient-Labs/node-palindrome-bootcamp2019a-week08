@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 54px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 4rem;
+    color:#76e211
+}
+
+#test{
+    margin-left:40%;
+    margin-bottom: 18px;
+}
+
+.results{
+    font-family: 'Black Ops One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: #FFE19C;
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button:hover{
+    background-color: #f654a9;
+}
