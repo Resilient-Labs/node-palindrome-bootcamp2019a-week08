@@ -1,0 +1,21 @@
+body{
+    background-image: url('/pal.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center; 
+    background-size: 100% 100%;
+    
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    /* the transform can help with positioning */
+    transform: translate(-50%, -80%);
+    box-shadow: 0 2px 8px rgb(39, 39, 39);
+    width: 465px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(53, 59, 73, 0.877);
+    color: white;
+}
