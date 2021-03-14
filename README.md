@@ -10,4 +10,4 @@ This Palindrome checker will check whatever string you put in and check if it is
 -JAVASCRIPT
 -NODE.JS
 
- ![Screenshot](coinFlipPic.jpg)
+ ![Screenshot](paliPic.jpg)
