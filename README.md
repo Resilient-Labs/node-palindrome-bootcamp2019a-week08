@@ -4,7 +4,7 @@ This project reinforces my understanding on the core concepts of OOP and Javascr
 
 &emsp;
 
-<img src="https://github.com/DashlinS/node-palindrome-bootcamp/tree/answer/images/palindromedemo.gif" width="700">
+<img src="https://github.com/DashlinS/node-palindrome-bootcamp/blob/answer/images/palindromedemo.gif" width="700">
 
 <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!]() -->
 
