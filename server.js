@@ -1,3 +1,14 @@
+/***************************************
+======Project: Palindrome Checker======
+Made for Coding Challenge
+By: Juan Vistro
+Code collaborators:
+Jerry Lafume, Kevin Sandoval,
+Khorally Pierre, Miggie Garcia,
+Milan Robinson, Rodas Ghidei,
+and Tamika Sterlin
+***************************************/
+
 const http = require('http');
 const fs = require('fs')
 // tells me what page im on
