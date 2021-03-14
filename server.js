@@ -15,8 +15,8 @@ const server = http.createServer(function(req, res){
     })
   }
   else if (page == '/palindrome'){
-    // let newInput = word.split('').reverse().join('')
     if('word' in params){
+
       res.writeHead(200, {'Content-Type': 'text/html'});
       const word = params['word']
       const wordBackwards = word.split('').reverse('').join('')
