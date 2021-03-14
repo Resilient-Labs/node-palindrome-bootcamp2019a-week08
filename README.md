@@ -1,4 +1,4 @@
-# Card Matching Game
+# Palindrome Checker
 
 ![alt tag](https://i.ibb.co/pWrYw9h/palidrome-Git.png)
 
