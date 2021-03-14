@@ -1,6 +1,6 @@
 # Palindrome Checker
 
-This project reinforces my understanding on the core concepts of OOP and Javascript ES6 features and their applications. I wanted to keep my code as compact as possible. I wanted to do a Neon theme for this project! The product came out clean, eye catching and fun! By the end of it. I'm excited for the future projects, so stay tuned!
+This is a Palindrome word checker. It uses the fs and http modules to validate if a string is a palindrome on the server side. 
 
 &emsp;
 
@@ -11,11 +11,7 @@ This project reinforces my understanding on the core concepts of OOP and Javascr
 ## How Its Made 
 
 **Tech used:** 
-HTML, CSS, JS, and Node JS. Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
-
-# What I Learned
-
-
+HTML, CSS, JS, and Node JS
 
 ### My Other Projects 
 
