@@ -1,0 +1,27 @@
+/* CSS files add styling rules to your content */
+html{
+  width: 99vw;
+  height: 1001px;
+  background-image: linear-gradient(rgb(11, 216, 113), rgb(10, 216, 235));
+  background-repeat: no-repeat;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 157, 0, 0.787);
+    width: 330px;
+    height: 375px;
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid rgb(241, 245, 8);
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #ffffff;
+}
