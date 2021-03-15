@@ -1,22 +1,22 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+This is a Palindrome word checker. It uses the fs and http modules to validate if a string is a palindrome on the server side. 
 
-### How to submit your code for review:
+&emsp;
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="https://github.com/DashlinS/node-palindrome-bootcamp/blob/answer/images/palindromedemo.gif" width="700">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!]() -->
+
+## How Its Made 
+
+**Tech used:** 
+HTML, CSS, JS, and Node JS
+
+### My Other Projects 
+
+Check out some of my other projects working with node.js!
+
+* [Wu-Tang Name Generator](https://github.com/DashlinS/wu-tang-generator-bootcamp/tree/answer)
+* [Yugioh Matching Card Game](https://github.com/DashlinS/matching-card-bootcamp/tree/answer)
+* [Mario Coin Flip](https://github.com/DashlinS/node-coin-flip-bootcamp/tree/answer)
