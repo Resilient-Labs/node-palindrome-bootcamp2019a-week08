@@ -1,0 +1,91 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  /* background-color:  rgba(217,159,139,255); */
+  text-align: center;
+  background-image: url('floral.gif');
+background-repeat: no-repeat;
+background-size: 100% 750px;
+/* color: rgba(217,159,139,255); */
+}
+section{
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  width: 45%;
+}
+
+
+
+
+
+
+
+h2{
+  color: rgba(255,130,91,255);
+  margin-top: 85px;
+  position: absolute;
+    top: 270px;
+    right: 245px;
+    font-size: 30px;
+    background: rgba(255,255, 255,.5);
+
+}
+
+button{
+background-color:rgb(243,188,187);
+border: none;
+padding: 6px;
+color: white;
+font-weight: 800;
+font-size: 20px;
+border-radius: 5px;
+/* position: absolute;
+top: 1rem;
+left: 1rem; */
+outline: none;
+cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(255,255, 255,.5);
+}
+input{
+  background-color: rgba(190, 218, 140, .5);
+  padding: 2%;
+  margin-right: 5%;
+  border: 2px solid rgb(243,188,187);
+  color: white;
+  font-size: 20px;
+  width: 35%;
+  text-align: center;
+}
+input:hover{
+  background-color: rgb(221,180,180);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
