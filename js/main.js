@@ -9,7 +9,7 @@ function palindrome(){
   //getting rid of places in phrases and combining characters into one group
   let getRid=inputEntry.split("").join("")
 
-  fetch(`api?term=${getRid}`)
+  fetch(`api?palindrome=${getRid}`)
   .then(response=>response.json())
   .then((data)=>{
     console.log(data)

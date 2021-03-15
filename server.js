@@ -20,7 +20,7 @@ const server = http.createServer(function(req, res) {
       if(inputEntry === inputEntry.split('').reverse().join('')){
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
-          palindrome=true
+          palindrome: true
         }
         res.end(JSON.stringify(objToJson));
       }else{
@@ -56,3 +56,8 @@ const server = http.createServer(function(req, res) {
 });
 
 server.listen(8000);
+
+
+///to initialize node 
+//get folder 
+//node server.js
