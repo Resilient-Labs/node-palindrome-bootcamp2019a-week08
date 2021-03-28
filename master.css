@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Palindrome SSi;
+  src: url(/palindromeSSi.ttf) format('truetype');
+}
+html {
+  font-size: 62.5%;
+  background-image: url(spider.gif);
+  background-repeat: ;
+  background-size: cover;
+  font-family: Palindrome SSi;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+h2{
+  font-family: Palindrome SSi;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputThis{
+  width: 30%;
+  margin: 0% 36%;
+}
+.mainBody{
+  border: 5px solid black;
+  height: 65vh;
+  width: 53vw;
+  margin: 5% auto;
+  background-color: rgb(0, 0, 0, .3);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  /* display: flex; */
+}
+input{
+  background-color: rgb(0, 0, 0, .3);
+  color: white;
+}
+button{
+  background-color: rgb(0, 0, 0, .3);
+  color: white;
+}
