@@ -1,0 +1,73 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family:'Bebas Neue';
+  background-image: linear-gradient(45deg, #93f1ff, #93b7f7, #9787FF, #c381e9, #d67dca, #e088a8);
+  background-size: 400% 400%;
+  animation: change 12s infinite alternate;
+}
+
+@keyframes change{
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+  letter-spacing: 4px;
+  font-size: 70px;
+  padding: 15px;
+  color: #ffffff7a;
+  -webkit-text-stroke: 1px white;
+  border: 5px solid #ffffff;
+  border-radius: 8px;
+  background-color: #ffe4c447;
+}
+
+.form{
+  padding: 30px;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 130px;
+}
+
+.palCheck{
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  padding-left: 4px;
+}
+
+.btn{
+  height: 30px;
+  width: 65px;
+  border-radius: 2px;
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #ffe4c482;
+}
+
+/* .hidden{
+  display: none;
+} */
+
+#answer{
+  color: #FFF;
+  border-radius: 8px;
+  text-decoration: underline;
+  font-size: 40px;
+} 
