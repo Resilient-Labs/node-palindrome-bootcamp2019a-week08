@@ -2,21 +2,16 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-### How to submit your code for review:
+# How to use:
+## Input the word you are interested in knowing if it is a palindrome
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# If user wants to use application, clone repository and run npm install
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Technologies:
+### javascript
+### css
+### HTML5
+### Node.js
+
+# Link to Project:
+https://relaxed-jones-c03cdd.netlify.com/
